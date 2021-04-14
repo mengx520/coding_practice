@@ -11,8 +11,7 @@ The letter-logs come before all digit-logs.
 The letter-logs are sorted lexicographically by their contents. If their contents are the same, then sort them lexicographically by their identifiers.
 The digit-logs maintain their relative ordering.
 Return the final order of the logs.
-'''
-'''
+
 Example1
 Input: logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
 Output: ["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 3 6"]
@@ -42,7 +41,6 @@ class Solution:
         
 
         return letter + digit
-        sorted_letter + 
 
 
 
