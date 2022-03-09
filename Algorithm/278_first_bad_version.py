@@ -36,7 +36,9 @@ Goal is to find when the change began
 Same binary search consept
 - Divide the array in the middle
     - if middle is not the change, new left begins from middle + 1, until left and right become equal
-    - if middle is the change, chop off the right, middle become the new right'''
+    - if middle is the change, chop off the right, middle become the new right
+
+Time complexity Olog(N)'''
 
 class Solution:
     def firstBadVersion(self, n: int) -> int:
