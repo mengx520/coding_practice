@@ -27,6 +27,7 @@ class Solution:
                 - if target is not yet found:
                     - if target < nums[middle], search on the left, update right = middle - 1
                     - else target > nums[middle], search on the right, update left = middle + 1
+        time complexity O(logN) 
         '''
         
         left, right = 0, len(nums) - 1
